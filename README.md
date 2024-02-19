@@ -62,15 +62,12 @@ erfinv(0.1);
 
 erfinv(0.4);
 // returns 0.37080715859355795
-```
 
 erfinv(0.85);
 // returns 1.0179024648320276
-```
 
 erfinv(-1);
 // returns -Infinity
-```
 
 erfinv(1);
 // returns Infinity
