@@ -1,0 +1,38 @@
+{
+  "name": "@toshiara/special-erfinv",
+  "version": "1.0.0",
+  "description": "inverse error function library (commonjs/esm)",
+  "author": "Toshiaki Ara",
+  "license": "MIT",
+  "keywords": [
+    "erfinv",
+    "erfcinv",
+    "error function",
+    "typescript",
+    "commonjs",
+    "esm"
+  ],
+  "scripts": {
+    "build": "tsc -p . && tsc -p tsconfig.cjs.json && tsconfig-to-dual-package",
+    "link": "npm link @toshiara/special-erfinv",
+    "unlink": "npm unlink @toshiara/special-erfinv",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "@toshiara/helper-functions": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "npm-check-updates": "^16.14.15",
+    "ts-jest": "^29.1.2",
+    "tsconfig-to-dual-package": "^1.2.0",
+    "typescript": "^5.3.3"
+  },
+  "type": "commonjs",
+  "homepage": "https://github.com/toshi-ara/special-erfinv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toshi-ara/special-erfinv"
+  }
+}
